@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="<%=basePath%>">
+	<meta charset="UTF-8">
+	<title>注册页-澳猫团</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="static/css/reset.css">
+	<link rel="stylesheet" href="static/css/base1.css">
+	<link rel="stylesheet" href="static/css/login.css">
+	<!-- 视图窗口，移动端特属的标签。 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+	<link media="screen and (min-width: 992px) and (max-width:1200px)" rel="stylesheet" href="static/css/base1-small.css">
+	<link media="screen and (min-width: 992px) and (max-width:1200px)" rel="stylesheet" href="static/css/login-small.css">
+	<link media="screen and (min-width: 768px) and (max-width:991px)" rel="stylesheet" href="static/css/base1-pad.css">
+	<link media="screen and (min-width: 768px) and (max-width:991px)" rel="stylesheet" href="static/css/login-pad.css">
+</head>
+<body>
+	<!-- 顶部 -->
+	<header>
+		<!-- 搜索和logo -->
+		<div class="logoAndSearch textWarp w1190 clearfix">
+			<div class="logo">
+				<a href="index.html">澳猫网</a>
+			</div>
+			<div class="LAStxt">
+				欢迎注册
+			</div>
+			<div class="search">
+				<div class="txt">
+					<input type="text" placeholder="Swisse/澳洲">
+					<em></em>
+				</div>
+				<a href="#" class="btn">
+					搜索
+				</a>
+				<ul>
+					<li><a target="_blank" href="#">胶原蛋白</a></li>
+					<li><a target="_blank" href="#">叶绿素</a></li>
+					<li><a target="_blank" href="#">睡眠片</a></li>
+					<li><a target="_blank" href="#">儿童维生素</a></li>
+					<li><a target="_blank" href="#">鱼肝油</a></li>
+					<li><a target="_blank" href="#">保健品</a></li>
+					<li><a target="_blank" href="#">美容</a></li>
+					<li class="BN"><a target="_blank" href="#">运动保健</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- 中间内容 -->
+	<div class="mainArea">
+		<div class="mainAreaW textWarp w1190">
+			<div class="mainContent boxS">
+				<div class="MCup clearfix">
+					<div class="MCright W310">
+						<form method="post" action="/register">
+						<h3 class="clearfix">
+							<span>注册澳猫团</span>
+							<a target="_blank" href="login.html">登录</a>
+						</h3>
+						<p class="userName">
+							<em></em>
+							<input class="W310" name="username" placeholder="请输入用户名" type="text">
+						</p>
+						<p class="passWord">
+							<em></em>
+							<input class="W310" name="password" placeholder="请输入密码" type="password">
+						</p>
+
+
+
+						<input class="loGin W310" type="submit" value="注册" />
+						</form>
+					</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<footer>
+		<div class="txt textWarp w1190">       
+			<ul>
+
+			</ul>
+			<p>
+
+			</p>
+			<div class="ALLN"></div>
+		</div>
+	</footer>
+	<script src="static/js/jquery-1.7.2.min.js"></script>
+	<script src="static/js/jquery.lazyload.min.js"></script>
+	<script src="static/js/login.js"></script>
+</body>
+</html>
